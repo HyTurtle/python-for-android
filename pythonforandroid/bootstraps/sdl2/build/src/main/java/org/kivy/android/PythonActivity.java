@@ -399,7 +399,7 @@ public class PythonActivity extends SDLActivity {
                         }
                     };
                     loadingScreenRemovalTimer = new Timer();
-                    loadingScreenRemovalTimer.schedule(removalTask, 5000);
+                    loadingScreenRemovalTimer.schedule(removalTask, 10000);
                 }
             }
         });
